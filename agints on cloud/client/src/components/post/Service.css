@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.bntStart {
+  background-image: none;
+  letter-spacing: 3px;
+  font-size: 1.6rem;
+  border: 1px solid #2cccc4;
+  text-transform: uppercase;
+  margin: 20px auto 0 13px;
+  margin-bottom: 2rem;
+  color: #000 !important;
+  background-color: #fff;
+  position: relative;
+  width: 22rem;
+  height: 4.3rem;
+  font-weight: bold;
+  margin-left: 54rem;
+}
+
+.bntStart:hover {
+  background-color: rgb(53, 52, 52);
+  color: #fff !important;
+}
+
+.pointer {
+  cursor: pointer;
+}
+@media all and (min-width: 480px) {
+  .addPost Form {
+    margin: 0 auto;
+    max-width: 320px;
+  }
+  .form-group {
+    margin-bottom: 0.3rem;
+  }
+}
+
+.marg32 {
+  background-color: #fff;
+  color: #000;
+  border-color: #2cccc4;
+  font-weight: bold;
+  border-radius: 0;
+}
+
+.marg32B {
+  background-color: #fff;
+  color: #000;
+  border-color: #2cccc4;
+  font-weight: bold;
+  border-radius: 0;
+  padding: 0.6rem;
+  margin-left: -22rem;
+  width: 6rem;
+}
+
+.tostMassage3 {
+  border-color: #eeeeee;
+  width: 30rem;
+  height: 5rem;
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  padding-top: -2rem;
+}
+.input1 {
+  width: 20rem;
+}
+.select {
+  border: 1px solid #000;
+}
+
+.card1Post {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 100%;
+  height: 46rem;
+  text-align: center;
+  font-family: arial;
+  margin-bottom: 5rem;
+  margin-left: 5rem;
+  margin-top: 2rem;
+}
+
+button:hover,
+a:hover {
+  opacity: 0.7;
+}
+.post12 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 5rem;
+  width: 80%;
+  margin-left: 6rem;
+}
+.p11 {
+  font-size: 25px;
+  width: 25rem;
+  height: 10rem;
+  text-align: center;
+  margin-left: 2.5rem;
+}
+.styleButton12AddPost {
+  font-size: 1.6rem;
+  font-family: arial;
+}
+
+.App1212 {
+  margin-top: 8.5rem;
+}
+
+.imagePosts {
+  height: 450px;
+  width: 100%;
+}
+
+
+.allAddPost {
+  display: grid;
+  grid-template-columns: 1fr 6fr 2fr 1fr;
+  position: relative;
+  z-index: 10;
+  background: rgb(255, 255, 255);
+  /* filter: blur(20px) grayscale(20%); */
+  height: 60rem;
+  padding-top: 8rem;
+}
+
+.addPost {
+  margin-left: 35rem;
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+  background-color: #ffffff;
+  width: 30rem;
+  height: 32rem;
+  box-shadow: 1px 8px 34px -12px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 1px 8px 34px -12px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 1px 8px 34px -12px rgba(0, 0, 0, 0.75);
+}
+
+.imageAddPosts {
+  width: 30rem;
+  height: 32rem;
+  box-shadow: 1px 8px 34px -12px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 1px 8px 34px -12px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 1px 8px 34px -12px rgba(0, 0, 0, 0.75);
+}
+
+.titleAddPost{
+  font-weight: 400;
+  font-size: 1.5rem;
+}
